@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    border: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+/* figure{
+    width: inherit;
+    height: inherit;
+} */
+.erro{
+    font-size: 40px;
+    color: red;
+}
+
+/* 
+.opacity{
+    background-color:rgb(7, 18, 6);
+} */
+
+.txt-center{
+    text-align: center;
+}
+
+.visivel{
+    display: block;
+}
+
+/* .container_conteudo{
+    width: 100%;
+    min-height: 1000px;
+    height: auto;  
+} */
+
+#nome_artista{
+    width: 400px;
+    height: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+#container_musicas{
+    width: 100%;
+    min-height: 800px;
+    height: auto;
+
+}
+
+#musicas{
+    width: 700px;
+    min-height: 0px;
+    height: auto;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+#tr_principal, #td_principal{
+    font-size: 20px;
+    transition: 2s;
+    
+
+}
+
+#tr_principal, #td_principal{
+    border: solid 2px rgb(0, 0, 0);
+    transition: 2s;
+
+}
+
+td{
+    border: solid 1px white;
+}
+
+/* .td_musicas:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+} */
+
+#letra_da_musica{
+    margin-left: 150px;
+    min-width: 250px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    float: left;
+    font-size: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.bkg-red{
+    background-color: rgb(7, 167, 1);
+
+    color: black;
+}
+
+.rigth{
+    margin-right: auto;
+    transition: 2s;
+}

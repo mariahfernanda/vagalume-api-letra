@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    
+    <title>Api Vagalume</title>
+</head>
+<body>
+
+    <!-- Seção de busca -->
+    <header id="cabecalho">
+            <div>
+                <img class="bkg-img" src="./img/vagalume.png"/>
+            </div>
+            <div id="container_busca">
+                <p class="searchCantor">
+                    Coloque o nome de um cantor
+                </p>
+                <div class="search">
+                    <input type="text" id="artista"/>
+                    <input type="button" value="BUSCAR" id="btn_buscar"/>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="conteudo center"></div>
+    </main>
+    <div id="dados_artista">
+        <div class="opacity">
+            <div class="conteudo center">
+                <div id="container_img_artista">
+                
+                </div>
+                <div id="nome_artista">
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="container_musicas">
+        <div class="conteudo center">
+            <table id="musicas" class="center">
+               
+
+            </table>
+            <h3 id="msg_erro"></h3>
+            <div id="letra_da_musica">
+            
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script src="./api_vagalume.js"></script>
+</body>
+</html>
